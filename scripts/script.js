@@ -7,7 +7,7 @@ $(function () {
     console.log("button clicked: "); //TODO: find out who clicked me, w/this?
 
     $.ajax({
-      url: https://barrycumbie.github.io/ubiquitous-giggle-india/assets/data.json",
+      url: "https://barrycumbie.github.io/ubiquitous-giggle-india/assets/data.json",
       dataType: "json",
       success: function (data) {
         console.log(data.userName);
